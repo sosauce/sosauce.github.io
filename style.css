@@ -240,7 +240,7 @@ nav a {
 }
 
 /* For tablets */
-@media screen and (min-width: 768px) and (max-width: 2001px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     h1 {
         margin-top: 6%;
