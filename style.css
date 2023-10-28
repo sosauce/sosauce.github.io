@@ -22,8 +22,8 @@ body {
 }
 
 *{
-    background-color: #FFFF99;
-    color: #ff7477;
+    background-color: #262626;
+    color: #E2E8CE;
     font-family: 'Rocko';
 }
 
@@ -61,44 +61,6 @@ h1 {
         -webkit-animation-timing-function: cubic-bezier(0,0,.2,1);
         animation-timing-function: cubic-bezier(0,0,.2,1)
     }
-}
-
-#text2_div{
-    margin-bottom: 30%;
-}
-
-#text2:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 1%;
-    position: relative;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  
-#text2:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
-
-button{
-    margin-left: 48%;
-    background-color: #E6E6FA;
-    border-radius: 50px;
-    border: none;
-    color: #ff7477;
-    scale: 1.5;
-}
-
-button:hover{
-    transition: 0.2s ease-in;
-    cursor: pointer;
-    background-color: #2a2a2a;
-    color: #fff;
 }
 
 /* Style the navbar */
@@ -146,7 +108,7 @@ nav a {
     border-top-left-radius: 30px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #D2B48C;
+    background-color: #ACBFA4;
     width: 300px;
     margin: 20px;
     position: fixed;
@@ -158,8 +120,8 @@ nav a {
 .card1 h2 {
     font-size: 18px;
     margin: 0;
-    background-color: #D2B48C;
-    color: #2a2a2a;
+    background-color: #ACBFA4;
+    color: black;
     text-align: center;
 }
 
@@ -167,8 +129,8 @@ nav a {
 /* Style the card text */
 .card1 p {
     font-size: 14px;
-    color: #555;
-    background-color: #D2B48C;
+    color: #525252;
+    background-color: #ACBFA4;
 }
 
 
@@ -182,7 +144,7 @@ nav a {
 /* 2ND CARD */
 .card2 {
     padding: 20px;
-    background-color: #D2B48C;
+    background-color: #ACBFA4;
     border-radius: 5px;
     width: 300px;
     margin: 20px;
@@ -195,8 +157,8 @@ nav a {
 .card2 h2 {
     font-size: 18px;
     margin: 0;
-    background-color: #D2B48C;
-    color: #2a2a2a;
+    background-color: #ACBFA4;
+    color: black;
     text-align: center;
 }
 
@@ -204,8 +166,8 @@ nav a {
 /* Style the card text */
 .card2 p {
     font-size: 14px;
-    color: #555;
-    background-color: #D2B48C;
+    color: #525252;
+    background-color: #ACBFA4;
 }
 
 
@@ -219,7 +181,7 @@ nav a {
 /* 3RD CARD */
 .card3 {
     padding: 20px;
-    background-color: #D2B48C;
+    background-color: #ACBFA4;
     border-top-right-radius: 30px;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 30px;
@@ -235,8 +197,8 @@ nav a {
 .card3 h2 {
     font-size: 18px;
     margin: 0;
-    background-color: #D2B48C;
-    color: #2a2a2a;
+    background-color: #ACBFA4;
+    color: black;
     text-align: center;
 }
 
@@ -244,8 +206,8 @@ nav a {
 /* Style the card text */
 .card3 p {
     font-size: 14px;
-    color: #555;
-    background-color: #D2B48C;
+    color: #525252;
+    background-color: #ACBFA4;
 }
 
 
@@ -255,3 +217,52 @@ nav a {
     color: #3498db;
     font-weight: bold;
 }
+
+@media (max-width: 1179px) {
+    /* Mobile-specific styles */
+    h1 {
+        margin-top: 15%;
+    }
+    #emoji_container {
+        margin-left: 42%;
+    }
+    .card1 {
+        padding: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 5px;
+        background-color: #D2B48C;
+        width: 300px;
+        margin: 20px;
+        position: fixed;
+        left: 7px;
+        top: 200px;
+    }
+    .card2 {
+        padding: 20px;
+        background-color: #D2B48C;
+        border-radius: 5px;
+        width: 300px;
+        margin: 20px;
+        position: fixed;
+        left: 7px;
+        top: 340px;
+    }
+    .card3 {
+        padding: 20px;
+        background-color: #D2B48C;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 300px;
+        margin: 20px;
+        position: fixed;
+        left: 7px;
+        top: 480px;
+    }
+
+}
+  
