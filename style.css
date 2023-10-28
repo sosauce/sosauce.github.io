@@ -133,14 +133,6 @@ nav a {
     background-color: #ACBFA4;
 }
 
-
-/* Style the card link */
-.card1 a {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-}
-
 /* 2ND CARD */
 .card2 {
     padding: 20px;
@@ -168,14 +160,6 @@ nav a {
     font-size: 14px;
     color: #525252;
     background-color: #ACBFA4;
-}
-
-
-/* Style the card link */
-.card2 a {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
 }
 
 /* 3RD CARD */
@@ -210,13 +194,6 @@ nav a {
     background-color: #ACBFA4;
 }
 
-
-/* Style the card link */
-.card3 a {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-}
 
 @media (max-width: 1179px) {
     /* Mobile-specific styles */
@@ -260,6 +237,49 @@ nav a {
         left: 7px;
         top: 480px;
     }
-
 }
-  
+
+/* For tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    h1 {
+        margin-top: 6%;
+    }
+    #emoji_container {
+        margin-left: 47%;
+    }
+    .card1 {
+        padding: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 5px;
+        width: 300px;
+        margin: 20px;
+        position: fixed;
+        left: 320px;
+        top: 200px;
+    }
+    .card2 {
+        padding: 20px;
+        border-radius: 5px;
+        width: 300px;
+        margin: 20px;
+        position: fixed;
+        left: 320px;
+        top: 340px;
+    }
+    .card3 {
+        padding: 20px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        width: 300px;
+        margin: 20px;
+        position: fixed;
+        left: 320px;
+        top: 480px;
+    }
+  }
