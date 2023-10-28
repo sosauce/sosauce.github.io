@@ -233,7 +233,6 @@ nav a {
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
         border-bottom-right-radius: 5px;
-        background-color: #D2B48C;
         width: 300px;
         margin: 20px;
         position: fixed;
@@ -242,7 +241,6 @@ nav a {
     }
     .card2 {
         padding: 20px;
-        background-color: #D2B48C;
         border-radius: 5px;
         width: 300px;
         margin: 20px;
@@ -252,7 +250,6 @@ nav a {
     }
     .card3 {
         padding: 20px;
-        background-color: #D2B48C;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
         border-bottom-right-radius: 30px;
