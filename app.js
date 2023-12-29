@@ -15,44 +15,44 @@ $(document).ready(function() {
   $("#moon").click(function() {
     // Change the background color, text color, and other styles of the content
     $("*").css({
-      "background-color": "#E2E8CE",
-      "color": "#262626",
+      "background-color": "#FFFBFF",
+      "color": "#23191B",
     });
     $(".card1").css({
-      "background-color": "#525252",
-      "color": "#BA68C8",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
     $(".card1 p").css({
-      "background-color": "#525252",
-      "color": "#E2E8CE",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
     $(".card1 h2").css({
-      "background-color": "#525252",
-      "color": "white",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
     $(".card2").css({
-      "background-color": "#525252",
-      "color": "#BA68C8",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
     $(".card2 p").css({
-      "background-color": "#525252",
-      "color": "#E2E8CE",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
     $(".card2 h2").css({
-      "background-color": "#525252",
-      "color": "white",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
     $(".card3").css({
-      "background-color": "#525252",
-      "color": "#BA68C8",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
     $(".card3 p").css({
-      "background-color": "#525252",
-      "color": "#E2E8CE",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
     $(".card3 h2").css({
-      "background-color": "#525252",
-      "color": "white",
+      "background-color": "#FFD8E0",
+      "color": "#23191B",
     });
   });
 });
@@ -62,44 +62,44 @@ $(document).ready(function() {
   $("#sun").click(function() {
     // Change the background color, text color, and other styles of the content
     $("*").css({
-      "background-color": "#262626",
-      "color": "#E2E8CE",
+      "background-color": "#201a1a",
+      "color": "#ebe0e0",
     });
     $(".card1").css({
-      "background-color": "#ACBFA4",
-      "color": "#BA68C8",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
     $(".card1 p").css({
-      "background-color": "#ACBFA4",
-      "color": "#555",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
     $(".card1 h2").css({
-      "background-color": "#ACBFA4",
-      "color": "black",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
     $(".card2").css({
-      "background-color": "#ACBFA4",
-      "color": "#BA68C8",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
     $(".card2 p").css({
-      "background-color": "#ACBFA4",
-      "color": "#555",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
     $(".card2 h2").css({
-      "background-color": "#ACBFA4",
-      "color": "black",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
     $(".card3").css({
-      "background-color": "#ACBFA4",
-      "color": "#BA68C8",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
     $(".card3 p").css({
-      "background-color": "#ACBFA4",
-      "color": "#555",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
     $(".card3 h2").css({
-      "background-color": "#ACBFA4",
-      "color": "black",
+      "background-color": "#5a3f44",
+      "color": "#ebe0e0",
     });
   });
 });
