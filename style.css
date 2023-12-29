@@ -22,8 +22,8 @@ body {
 }
 
 *{
-    background-color: #262626;
-    color: #E2E8CE;
+    background-color: #201a1a;
+    color: #ebe0e0;
     font-family: 'Rocko';
 }
 
@@ -37,6 +37,7 @@ h1 {
     background: transparent;
 }
 #emoji_container {
+
     margin-left: 48%;
     margin-top: 2%;
     padding-bottom: 5%;
@@ -100,6 +101,14 @@ nav a {
     font-weight: bold;
 }
 
+#cards {
+    margin-top: 7%;
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Center the child elements vertically */
+    position: relative;
+  }
+
 /* 1ST CARD */
 .card1 {
     padding: 20px;
@@ -108,90 +117,53 @@ nav a {
     border-top-left-radius: 30px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #ACBFA4;
+    background-color: #5a3f44;
     width: 300px;
     margin: 20px;
-    position: fixed;
-    left: 300px;
-    top: 300px;
+    position: relative;
+    left: 2%;
+    
 }
 
 /* Style the card title */
-.card1 h2 {
+.card1 h2, .card2 h2, .card3 h2{
     font-size: 18px;
     margin: 0;
-    background-color: #ACBFA4;
-    color: black;
+    background-color: #5a3f44;
+    color: #ebe0e0;
     text-align: center;
 }
 
 
 /* Style the card text */
-.card1 p {
+.card1 p, .card2 p, .card3 p{
     font-size: 14px;
-    color: #525252;
-    background-color: #ACBFA4;
+    color: #ebe0e0;
+    background-color: #5a3f44;
 }
 
 /* 2ND CARD */
 .card2 {
     padding: 20px;
-    background-color: #ACBFA4;
+    background-color: #5a3f44;
     border-radius: 5px;
     width: 300px;
     margin: 20px;
-    position: fixed;
-    left: 650px;
-    top: 300px;
-}
-
-/* Style the card title */
-.card2 h2 {
-    font-size: 18px;
-    margin: 0;
-    background-color: #ACBFA4;
-    color: black;
-    text-align: center;
-}
-
-
-/* Style the card text */
-.card2 p {
-    font-size: 14px;
-    color: #525252;
-    background-color: #ACBFA4;
+    position: relative;
 }
 
 /* 3RD CARD */
 .card3 {
     padding: 20px;
-    background-color: #ACBFA4;
+    background-color: #5a3f44;
     border-top-right-radius: 30px;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 5px;
     width: 300px;
     margin: 20px;
-    position: fixed;
-    left: 1000px;
-    top: 300px;
-}
-
-/* Style the card title */
-.card3 h2 {
-    font-size: 18px;
-    margin: 0;
-    background-color: #ACBFA4;
-    color: black;
-    text-align: center;
-}
-
-
-/* Style the card text */
-.card3 p {
-    font-size: 14px;
-    color: #525252;
-    background-color: #ACBFA4;
+    position: relative;
+    right: 2%;
 }
 
 
@@ -213,8 +185,8 @@ nav a {
         width: 300px;
         margin: 20px;
         position: fixed;
-        left: 7px;
-        top: 200px;
+        left: 2%;
+        top: 23%;
     }
     .card2 {
         padding: 20px;
@@ -222,8 +194,8 @@ nav a {
         width: 300px;
         margin: 20px;
         position: fixed;
-        left: 7px;
-        top: 340px;
+        left: 2%;
+        top: 40%;
     }
     .card3 {
         padding: 20px;
@@ -234,10 +206,11 @@ nav a {
         width: 300px;
         margin: 20px;
         position: fixed;
-        left: 7px;
-        top: 480px;
+        left: 2%;
+        top: 57%;
     }
 }
+
 
 /* For tablets */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -282,4 +255,5 @@ nav a {
         left: 320px;
         top: 480px;
     }
-  }
+  } 
+  
