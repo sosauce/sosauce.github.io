@@ -1,117 +1,29 @@
-/* Hide the scrollbar in Webkit browsers */
-::-webkit-scrollbar {
-    width: 0;
-}
-  
-::-webkit-scrollbar-thumb {
-    width: 0;
-}
-  
-::-webkit-scrollbar-track {
-    width: 0;
-}
-
-/* Hide the scrollbar in Firefox */
-body {
-    scrollbar-width: none;
-  }
-  
-@font-face {
-    font-family: 'Rocko';
-    src: url(./RockoFLF.ttf);
-}
-
-*{
-    background-color: #201a1a;
-    color: #ebe0e0;
-    font-family: 'Rocko';
-}
-
-
-h1 {
-    text-align: center;
-    margin-top: 7%;
-}
-
-#emoji_down {
-    background: transparent;
-}
-#emoji_container {
-
-    margin-left: 48%;
-    margin-top: 2%;
-    padding-bottom: 5%;
-    position: absolute;
-    animation: Mybounce;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    background: none;
-    font-size: 250%;
-}
-
-
-@keyframes Mybounce {
-    0%,to {
-        transform: translateY(-5%);
-        -webkit-animation-timing-function: cubic-bezier(.8,0,1,1);
-        animation-timing-function: cubic-bezier(.8,0,1,1)
-    }
-
-    50% {
-        transform: none;
-        -webkit-animation-timing-function: cubic-bezier(0,0,.2,1);
-        animation-timing-function: cubic-bezier(0,0,.2,1)
-    }
-}
-
-/* Style the navbar */
-nav {
-    position: fixed; /* Make the navbar sticky */
-    top: 0; /* Stick to the top of the viewport */
-    width: 100%; /* Occupy the full width of the viewport */
-    color: #fff;
-    text-align: center;
-    z-index: 999;
-}
-
-/* Style the list (remove bullet points and padding) */
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-/* Style the list items (horizontal arrangement) */
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-#moon {
-    float: left;
-    transition: all 0.3s ease;
-}
-#sun {
-    float: left;
-    transition: all 0.3s ease;
-}
-/* Style the links (remove underlines and change color) */
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
 #cards {
     margin-top: 7%;
     justify-content: center;
     display: flex;
-    align-items: center; /* Center the child elements vertically */
+    align-items: center;
     position: relative;
   }
 
-/* 1ST CARD */
+
+.card1 h2, .card2 h2, .card3 h2{
+    font-size: 18px;
+    margin: 0;
+    background-color: #5a3f44;
+    color: #ebe0e0;
+    text-align: center;
+}
+
+
+.card1 p, .card2 p, .card3 p{
+    font-size: 14px;
+    color: #ebe0e0;
+    background-color: #5a3f44;
+}
+
 .card1 {
-    padding: 20px;
+    padding: 1.05%;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
@@ -125,26 +37,8 @@ nav a {
     
 }
 
-/* Style the card title */
-.card1 h2, .card2 h2, .card3 h2{
-    font-size: 18px;
-    margin: 0;
-    background-color: #5a3f44;
-    color: #ebe0e0;
-    text-align: center;
-}
-
-
-/* Style the card text */
-.card1 p, .card2 p, .card3 p{
-    font-size: 14px;
-    color: #ebe0e0;
-    background-color: #5a3f44;
-}
-
-/* 2ND CARD */
 .card2 {
-    padding: 20px;
+    padding: 1.05%;
     background-color: #5a3f44;
     border-radius: 5px;
     width: 300px;
@@ -152,9 +46,8 @@ nav a {
     position: relative;
 }
 
-/* 3RD CARD */
 .card3 {
-    padding: 20px;
+    padding: 1.05%;
     background-color: #5a3f44;
     border-top-right-radius: 30px;
     border-top-left-radius: 5px;
@@ -165,6 +58,31 @@ nav a {
     position: relative;
     right: 2%;
 }
+
+
+#section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 1%;
+    font-size: medium;
+    border-radius: 50px;
+    border-style: none;
+    margin: 0 auto
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    background: none;
+}
+
 
 
 @media (max-width: 1179px) {
@@ -206,7 +124,7 @@ nav a {
         width: 300px;
         margin: 20px;
         position: fixed;
-        left: 2%;
+        left: 1%;
         top: 57%;
     }
 }
