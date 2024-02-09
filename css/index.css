@@ -1,12 +1,4 @@
-::-webkit-scrollbar {
-    width: 0;
-}
-  
-::-webkit-scrollbar-thumb {
-    width: 0;
-}
-  
-::-webkit-scrollbar-track {
+::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
     width: 0;
 }
 
