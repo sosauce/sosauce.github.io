@@ -19,32 +19,6 @@ body {
     padding: 0;
 }
 
-.container {
-    width: 100%;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-
-.navbar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-nav {
-    flex: 1;
-    text-align: center;
-    padding: 1%;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 20px;
-}
-
 .row {
     display: flex;
     justify-content: space-between;
@@ -76,6 +50,10 @@ nav ul li {
     border-style: none;
     background-color: #5e4040;
     font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
 }
 
 .col-1 a button:hover {
@@ -83,8 +61,8 @@ nav ul li {
     transition: all 0.5s ease-out;
     background-color: #ebe0e0;
     color: #5e4040;
-    .fa-brands, .fa-regular {
-        color: #5e4040
+    .github-icon {
+        filter: invert(0%)
     }
 }
 
@@ -102,18 +80,28 @@ nav ul li {
 
 
 
+.github-icon {
+    width: 20%;
+    background: transparent;
+    filter: invert(90%) sepia(10%) saturate(70%) hue-rotate(350deg) brightness(100%) contrast(100%);
 
-.fa-brands, .fa-regular {
-    background-color: transparent;
+}
+
+.socials-link img {
+    height: 30px;
+    margin: 20px;
+    cursor: pointer;
+    filter: invert(90%) sepia(10%) saturate(70%) hue-rotate(350deg) brightness(100%) contrast(100%);
+    background: none;
+}
+
+.socials-link {
+    text-align: center;
+    background: none;
 }
 
 @media only screen and (max-width:700px) {
 
-    nav {
-        flex: 1;
-        text-align: center;
-        padding: 3%;
-    }
 
     .row {
         flex-direction: column-reverse;
@@ -142,4 +130,5 @@ nav ul li {
         justify-content: center;
         align-items: center;
     }
+
 }
