@@ -122,9 +122,4 @@ body {
         align-items: center;
     }
 
-    .socials-link {
-        position:absolute;
-        left: 23%;
-        bottom: 1%;
-    }
 }
