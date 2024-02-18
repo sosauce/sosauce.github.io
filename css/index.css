@@ -9,6 +9,7 @@ body {
 @font-face {
     font-family: 'Nunito';
     src: url(/other/nunito.woff);
+    font-display: swap;
 }
 
 *{
