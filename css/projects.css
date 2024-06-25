@@ -12,7 +12,8 @@ body {
 }
 
 *{
-    color: #ebe0e0;
+    color: #9496A6;
+    background-color: #06050D;
     font-family: 'Nunito';
     margin: 0;
     padding: 0;
@@ -23,27 +24,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
-}
-
-.bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100vh;
-    background-image: url(/img/kuromi.jpeg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    backdrop-filter: blur(25px);
 }
 
 .cutecalc-1 {
@@ -68,7 +48,7 @@ body {
     padding: 12px 10px;
     border-radius: 50px;
     border-style: none;
-    background-color: #5e4040;
+    background-color: #181926;
     font-size: 16px;
     display: inline-flex;
     align-items: center;
@@ -80,7 +60,7 @@ body {
     cursor: pointer;
     transition: all 0.5s ease-out;
     background-color: #ebe0e0;
-    color: #5e4040;
+    color: #181926;
     .github-icon {
         filter: invert(0%)
     }
