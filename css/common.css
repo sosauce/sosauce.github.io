@@ -1,0 +1,16 @@
+body {
+    scrollbar-width: none;
+  }
+  
+@font-face {
+    font-family: 'Nunito';
+    src: url(/other/nunito.woff);
+}
+
+*{
+    color: #9496A6;
+    background-color: #06050D;
+    font-family: 'Nunito';
+    margin: 0;
+    padding: 0;
+}

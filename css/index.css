@@ -1,26 +1,3 @@
-::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
-    width: 0;
-}
-
-body {
-    scrollbar-width: none;
-
-  }
-  
-@font-face {
-    font-family: 'Nunito';
-    src: url(/other/nunito.woff);
-    font-display: swap;
-}
-
-*{
-    color: #9496A6;
-    background-color: #06050D;
-    font-family: 'Nunito';
-    margin: 0;
-    padding: 0;
-}
-
 .pfp {
     border-radius: 50%;
     width: 35%;
