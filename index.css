@@ -1,0 +1,33 @@
+body {
+    scrollbar-width: none;
+}
+  
+@font-face {
+    font-family: 'Nunito';
+    src: url(/resources/nunito.woff);
+}
+
+* {
+    color: rgb(239 223 226);
+    background-color: rgb(25 17 20);
+    font-family: 'Nunito';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 40px;
+}
+
