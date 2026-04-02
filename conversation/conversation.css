@@ -1,0 +1,140 @@
+:root {
+    --bg: rgb(35,2,18);
+    --hover: rgb(54, 22, 36);
+    --primary: rgb(255, 140, 159);
+    --onPrimary: rgb(99, 0, 33);
+    --onSurfaceVariant: rgb(214, 154, 177);
+    --onSurface: rgb(255, 219, 231);
+    --surfaceContainerHigh: rgb(51, 8, 29);
+    --primaryContainer: rgb(250, 90, 125);
+    --onPrimaryContainer: rgb(0,0,0);
+    --textFieldColor: rgb(69, 19, 41);
+}
+
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(/resources/nunito.woff);
+}
+
+body {
+    font-family: 'Nunito';
+    background: var(--bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+}
+
+.scaffold {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 50px;
+  background: var(--surfaceContainerHigh);
+  color: var(--onSurfaceVariant);
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--onPrimary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--surfaceContainerHigh);
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 8px;
+}
+
+input {
+    border: none;
+    border-radius: 50px;
+    resize: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--textFieldColor);
+    color: var(--onSurfaceVariant);
+    padding: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.bubbles {
+    padding-top: 90px; 
+    padding-bottom: 90px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bubble {
+    background-color: var(--primaryContainer);
+    color: var(--onPrimaryContainer);
+    padding: 10px 16px;
+    border-radius: 24px;
+    width: fit-content; 
+    margin-left: auto;
+    margin-top: 3px;
+    text-align: end;
+    max-width: 70vw;
+}
+
+
+.logos {
+    display: flex;
+    justify-content: flex-end; /* Aligns the entire row to the right */
+    align-items: center;      /* Keeps icons centered vertically */
+    gap: 12px;                /* Consistent spacing between icons */
+    width: 100%;              /* Ensures the container spans the full width */
+}
+
+.logo {
+    display: block;
+    padding: 15px;
+}
+
+/* Forces SVGs to be the same size */
+.logo img {
+    height: 90px;             /* Adjust this value to your preferred size */
+    width: auto;
+    display: block;
+}
+
+.iconButton {
+    margin: 15px;
+}
+
+a {
+    color: var(--onPrimaryContainer);
+}
