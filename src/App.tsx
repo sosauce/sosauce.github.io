@@ -1,21 +1,32 @@
-import { MapPin } from "lucide-react";
+import { MapPin, Moon, Plus } from "lucide-react";
 import BlurOutUp from "./components/smoothui/blur-out-up";
 import { Badge } from "./components/ui/badge";
+import { Particles } from "./components/ui/particles";
+import TechStack from "./components/TeckStack";
+import { About } from "./components/About";
+import { Button } from "./components/ui/button";
+
 
 export function App() {
   return (
-    <div>
-      <div className="flex min-h-screen flex-row items-center justify-center">
-        <div className="flex flex-col items-start">
-          <BlurOutUp className="text-4xl font-bold tracking-tight">
-            I'm sosauce 🫰🏼🎀
-          </BlurOutUp>
-          <Badge variant="outline" className="mt-2 mb-2"> <MapPin />Based in France 🇫🇷</Badge>
-          <BlurOutUp className="text-muted-foreground text-lg" delay={400}>
-            An Android first developer who focuses on building unforgetable experiences with Kotlin & Jetpack Compose.
-          </BlurOutUp>
+    <div className="relative min-h-screen w-full overflow-hidden">
+      {/* Background layer */} 
+    
+      <Particles className="absolute inset-0" />
+
+      {/* Foreground content */}
+      <main className="relative z-10 flex min-h-screen items-center justify-center p-6">
+        {/* navbar */}
+        <div className="absolute top-6 px-12 flex flex-row items-start w-dvw">
+          <h1 className="text-3xl">🫰🏼🎀</h1>
+          <h2>🫰🏼🎀</h2>
         </div>
-      </div>
+        {/* main content */}
+        <div className="flex flex-row w-4/6">
+          <About/>
+        </div>
+
+      </main>
     </div>
   );
 }
